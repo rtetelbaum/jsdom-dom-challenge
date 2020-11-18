@@ -9,8 +9,6 @@ const commentList = document.querySelector('#list')
 const pauseBtn = document.querySelector("#pause")
 const submitBtn = document.querySelector("#submit")
 
-
-
 function countUp () {
 	let count = parseInt(counter.textContent)
 	count++
@@ -67,4 +65,4 @@ commentForm.addEventListener("submit", function(event){
 	event.target.reset()
 })
 
-setInterval(countUp, [1000])     
+setInterval(countUp, 1000)
